@@ -10,3 +10,12 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.city {
+    width: 512px;
+    height: 512px;
+    background-color: cadetblue;
+    margin:auto;
+    outline: 20px solid #28313A;
+    box-shadow: inset 0px 0px 10px rgba(0,0,0,0.5);
+}
