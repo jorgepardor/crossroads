@@ -14,7 +14,27 @@ import REPedestrianLight from "./component/REPedestrianLight.jsx";
 
 //render your react application
 ReactDOM.render(<BaseLayer />, document.querySelector("#mapa"));
-ReactDOM.render(<JSTrafficLight />, document.querySelector("#JST"));
-ReactDOM.render(<JSPedestrianLight />, document.querySelector("#JSP"));
-ReactDOM.render(<RETrafficLight />, document.querySelector("#RET"));
-ReactDOM.render(<REPedestrianLight />, document.querySelector("#REP"));
+
+const JavaScriptAveT = document.querySelectorAll(".JST");
+
+JavaScriptAveT.forEach(function (Avenue) {
+	ReactDOM.render(<JSTrafficLight />, Avenue);
+});
+
+const JavaScriptAveP = document.querySelectorAll(".JSP");
+
+JavaScriptAveP.forEach(function (Avenue) {
+	ReactDOM.render(<JSPedestrianLight />, Avenue);
+});
+
+const ReactAveT = document.querySelectorAll(".RET");
+
+ReactAveT.forEach(function (Avenue) {
+	ReactDOM.render(<RETrafficLight />, Avenue);
+});
+
+const ReactAveP = document.querySelectorAll(".REP");
+
+ReactAveP.forEach(function (Avenue) {
+	ReactDOM.render(<REPedestrianLight />, Avenue);
+});

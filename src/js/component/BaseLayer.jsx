@@ -17,10 +17,29 @@ const Baselayer = () => {
 				<div
 					className="city"
 					style={{ backgroundImage: `url(${Citybg})` }}>
-					<div id="JST"></div>
-					<div id="JSP"></div>
-					<div id="RET"></div>
-					<div id="REP"></div>
+					<div className="JSNorth">
+						<div className="JST JSTtrafNorth"></div>
+						<div className="JSP JSPedEast"></div>
+						<div className="JSP JSPedEast"></div>
+					</div>
+
+					<div className="JSSouth">
+						<div className="JSP JSPedWestN"></div>
+						<div className="JSP JSPedWestS"></div>
+						<div className="JST JSTtrafSouth"></div>
+					</div>
+
+					<div className="REEast">
+						<div className="RET RETrafEast"></div>
+						<div className="REP REPedNorth"></div>
+						<div className="REP REPedSouth"></div>
+					</div>
+
+					<div className="REWest">
+						<div className="RET RETWest"></div>
+						<div className="REP REPedNorth"></div>
+						<div className="REP REPedSouth"></div>
+					</div>
 				</div>
 			</div>
 		</>

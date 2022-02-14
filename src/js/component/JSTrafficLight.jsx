@@ -68,14 +68,6 @@ class JSTrafficLight extends React.PureComponent {
 
 		return (
 			<div className="main">
-				{/* <div className="title">
-					<h1 className="display-2">
-						Welcome to the crossroads between javascript and react
-					</h1>
-				</div>
-				<div
-					className="city"
-					style={{ backgroundImage: `url(${Citybg})` }}></div> */}
 				<div>
 					<Red isOn={red} />
 					<Yellow isOn={yellow} />

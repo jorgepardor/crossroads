@@ -30,3 +30,85 @@ body {
 h1 {
     font-family: 'Press Start 2P', cursive;
 }
+
+.JSTtrafNorth {
+    position:relative;
+    display: block;
+    left:-36px;
+    top: 168px;
+    -webkit-transform:rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.JSTtrafSouth {
+    position:relative;
+    display: block;
+    left:36px;
+    top: 206px;
+}
+
+.JSPedWestN {
+    position:relative;
+    display: block;
+    left:112px;
+    top:142px;
+    -webkit-transform:rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.JSPedWestS {
+    position:relative;
+    display: block;
+    left:112px;
+    top:264px;
+    -webkit-transform:rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+
+
+
+.RETrafEast {
+    position: relative;
+    display: block;
+    left:74px;
+    top:66px;
+    -webkit-transform:rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+.RETWest {
+    position: relative;
+    display: block;
+    right:74px;
+    top:66px;
+    -webkit-transform:rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.REPedNorth{
+    position:relative;
+    display: block;
+    right:300px;
+}
+
+.REPedSouth {
+    position:relative;
+    display: block;
+    right:320px;
+}
