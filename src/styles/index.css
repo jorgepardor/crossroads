@@ -27,8 +27,14 @@ body {
     box-shadow: inset 0px 0px 10px rgba(0,0,0,0.5);
 }
 
+.title {
+    height: 60px;
+    margin-top: 60px;
+    text-align: center;
+}
+
 h1 {
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'VT323';
 }
 
 .JSTtrafNorth {
@@ -50,35 +56,53 @@ h1 {
     top: 206px;
 }
 
-.JSPedWestN {
+.JSPedNorthNE {
     position:relative;
     display: block;
-    left:112px;
-    top:142px;
-    -webkit-transform:rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    transform: rotate(90deg);
+    left:36px;
+    top: 104px;    
+    -webkit-transform:rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+    
 }
 
-.JSPedWestS {
+.JSPedNorthNW {
     position:relative;
     display: block;
-    left:112px;
-    top:264px;
-    -webkit-transform:rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    transform: rotate(90deg);
+    right:36px;
+    top: 84px;    
+
+    
+}
+
+.JSPedSouthSE {
+    position:relative;
+    display: block;
+    left:36px;
+    top: 288px;    
+    -webkit-transform:rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+    
+}
+
+.JSPedSouthSW {
+    position:relative;
+    display: block;
+    right:36px;
+    top: 270px;
 }
 
 
 
 
 .RETrafEast {
-    position: relative;
+    position:relative;
     display: block;
     left:74px;
     top:66px;
@@ -89,11 +113,11 @@ h1 {
     transform: rotate(-90deg);
 }
 
-.RETWest {
+.RETrafWest {
     position: relative;
     display: block;
     right:74px;
-    top:66px;
+    top:68px;
     -webkit-transform:rotate(90deg);
     -moz-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
@@ -101,14 +125,54 @@ h1 {
     transform: rotate(90deg);
 }
 
-.REPedNorth{
+.REPedEastNE {
     position:relative;
     display: block;
-    right:300px;
+    left:112px;
+    top: 42px;    
+    -webkit-transform:rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    
 }
 
-.REPedSouth {
+.REPedEastSE {
     position:relative;
     display: block;
-    right:320px;
+    left:112px;
+    top: 92px;    
+    -webkit-transform:rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    
+}
+
+.REPedWestNW {
+    position:relative;
+    display: block;
+    right:112px;
+    bottom: 48px;    
+    -webkit-transform:rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    
+}
+
+.REPedWestSE {
+    position:relative;
+    display: block;
+    right:112px;
+    top: 44px;    
+    -webkit-transform:rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    
 }
