@@ -10,6 +10,13 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body {
+    background-color: #495A6B;
+}
+
+.map {
+    background-image: url('../img/citybg.png');
+}
 
 .city {
     width: 512px;
@@ -18,4 +25,8 @@
     margin:auto;
     outline: 20px solid #28313A;
     box-shadow: inset 0px 0px 10px rgba(0,0,0,0.5);
+}
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
 }
